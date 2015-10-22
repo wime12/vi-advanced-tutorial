@@ -1,0 +1,21 @@
+x TAG a
+x TAG blockquote
+x TAG body
+TAG br
+TAG code
+TAG dd
+TAG dl
+TAG dt
+TAG em
+TAG font
+x TAG h3
+x TAG head
+x TAG html
+x TAG li
+TAG ol
+x TAG p
+TAG pre
+x TAG strong
+x TAG title
+x TAG ul
+TAG var
