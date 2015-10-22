@@ -434,7 +434,7 @@ pattern you are searching for, you'll have to backslash it there to
 prevent the editor thinking it is the end of the pattern.
 
 #### Table of Search Pattern Metacharacters
-|---|---|
+|:---|---:|
 |`.`| A period in a search pattern matches any single character, whether a letter of the alphabet (upper or lower case), a digit, a punctuation mark, in fact, any ASCII character except the newline. So to find &ldquo;default value&rdquo; when it might be spelled &ldquo;default-value&rdquo; or |
 
     <dl>
