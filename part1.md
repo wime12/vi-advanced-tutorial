@@ -166,7 +166,7 @@ and the work the same way in both, with just a few exceptions. But how you
 tell the editor you're typing in a search pattern will vary with the
 circumstances.
 
-#### SEARCHING FROM WHERE YOU ARE NOW
+#### Searching From Where You Are Now
 
 The more common use for search patterns
 is to go to some new place in the file, or make some editing change that
@@ -434,6 +434,8 @@ pattern you are searching for, you'll have to backslash it there to
 prevent the editor thinking it is the end of the pattern.
 
 #### Table of Search Pattern Metacharacters
+|---|---|
+|`.`| A period in a search pattern matches any single character, whether a letter of the alphabet (upper or lower case), a digit, a punctuation mark, in fact, any ASCII character except the newline. So to find &ldquo;default value&rdquo; when it might be spelled &ldquo;default-value&rdquo; or |
 
     <dl>
       <dt>
