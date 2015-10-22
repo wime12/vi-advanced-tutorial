@@ -437,21 +437,11 @@ prevent the editor thinking it is the end of the pattern.
 
 | Character | Description |
 | :--- | ---: |
-| `.` | A period in a search pattern matches any single character, whether a letter of the alphabet (upper or lower case), a digit, a punctuation mark, in fact, any ASCII character except the newline. So to find &ldquo;default value&rdquo; when it might be spelled &ldquo;default-value&rdquo; or |
+| `.` | A period in a search pattern matches any single character, whether a letter of the alphabet (upper or lower case), a digit, a punctuation mark, in fact, any ASCII character except the newline. So to find &ldquo;default value&rdquo; when it might be spelled &ldquo;default-value&rdquo; or 
+&ldquo;default/value&rdquo; or &ldquo;default_value&rdquo;, etcetera, use `/default.value/` as your search pattern. When the editor variable <var>magic
+</var> is turned off, you must backslash the period to give it its meta
+value. |
 
-    <dl>
-      <dt>
-        `<strong>.</strong>`
-      </dt>
-      <dd>
-        A period in a search pattern matches any single character, whether a
-        letter of the alphabet (upper or lower case), a digit, a punctuation
-        mark, in fact, any ASCII character except the newline. So to find
-        &ldquo;default value&rdquo; when it might be spelled &ldquo;default-value&rdquo; or
-        &ldquo;default/value&rdquo; or &ldquo;default_value&rdquo;, etcetera, use `<strong>/default.value/
-        </strong>` as your search pattern. When the editor variable <var>magic
-        </var> is turned off, you must backslash the period to give it its meta
-        value.
       </dd>
       <dt>
         `<strong>*</strong>`
